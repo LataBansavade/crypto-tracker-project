@@ -40,16 +40,16 @@ const MainComponent = ()=>{
                 <a href="/dashboard">
                  <Button text="Dashboard" />
                 </a>
-                <Button text={"Share"} outlined ={"true"}/>
-            {/* <RWebShare
+                {/* <Button text={"Share"} outlined ={"true"}/> */}
+            <RWebShare
                     data={{
                     text: "Crypto Dashboard made using React JS.",
-                    url: "https://crypto-dashboard-dec.netlify.app/",
+                    url: "https://crypto-tracker-project-cyan.vercel.app/",
                     title: "CryptoDashboard.",
                     }}
                     onClick={() => console.log("shared successfully!")}>
                 <Button text="Share App" outlined={true} />
-            </RWebShare> */}
+            </RWebShare>
 
             </motion.div>
         </div>
