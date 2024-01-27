@@ -1,0 +1,116 @@
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter:wght@100;200;300;400;500;600;700;900&family=Roboto&display=swap');
+
+
+:root{
+  /* --white: #f1dede;
+  --black: #171515;
+  --blue : #277da1;
+  --gray:#757272;
+  --darkgray:#2b2a2a;
+  --green: #48a554;
+  --red: hwb(0 28% 19%);
+  --crimson : crimson; */
+  --backgroundColor:#111;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--backgroundColor);
+  color: var(--white);
+  font-family: 'Inter', sans-serif;
+}
+
+.dark-theme{
+  /* --white:#111;
+  --black:#fff;
+  --blue:#3a80e9;
+  --grey:#888;
+  --darkgrey:#1b1b1b;
+  --green:#61c96f;
+  --red:#f94141 ; */
+  --white: #f1dede;
+  --black: #171515;
+  --blue : #277da1;
+  --gray:#757272;
+  --darkgray:#2b2a2a;
+  --green: #48a554;
+  --red: hwb(0 28% 19%);
+  --whitish:#fff;
+  --backgroundColor:#111;
+}
+.light-theme{
+  --white:#111;
+  --black: #dce7ef;
+  --blue:#447dd2;
+  --grey:#888;
+  --darkgrey:#757272;
+  --whitish:#fff;
+  --backgroundColor:#e6e9ec;
+  --green: #48a554 !important;
+  --red: hwb(0 28% 19%) !important;
+}
+
+/* Custom Selection */
+::selection{
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+/*  Custom Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:  var(--white);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--blue);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #330c46;
+}
+
+a{
+  color: var(--white) !important;
+  text-decoration: none !important;
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  }
+
+
+  .gray-wrapper
+  {
+    display: block;
+    width: 90%;
+    background-color: var(--darkgray);
+    margin: 1.5rem auto;
+    border-radius: 0.8rem;
+    padding: 1rem 1rem;
+  }
+
+  .coins-days-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1.5rem;
+    gap: 2rem;
+  }
